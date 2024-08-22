@@ -6,8 +6,7 @@ const app = express();
 const port = process.env.PORT || 5000;
 
 //middleware
-app.use(cors(corsConfig));
-app.options("", cors(corsConfig));
+app.use(cors());
 app.use(express.json());
 //natureTourism
 //bTUQc9C39XVewTBh
